@@ -1,0 +1,377 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 13665,
+      "max": [
+        4.707970142364502,
+        4.707970142364502,
+        106.79128265380859
+      ],
+      "min": [
+        -4.707970142364502,
+        -4.707970142364502,
+        92.084396362304688
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 163980,
+      "componentType": 5126,
+      "count": 13665,
+      "max": [
+        0.99985438585281372,
+        0.99985450506210327,
+        0.60506999492645264
+      ],
+      "min": [
+        -0.99985438585281372,
+        -0.99985450506210327,
+        -0.63356196880340576
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 20736,
+      "max": [
+        13664
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 327960,
+      "componentType": 5126,
+      "count": 4811,
+      "max": [
+        30.062770843505859,
+        30.062770843505859,
+        91.28887939453125
+      ],
+      "min": [
+        -30.062770843505859,
+        -30.062770843505859,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 385692,
+      "componentType": 5126,
+      "count": 4811,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 82944,
+      "componentType": 5125,
+      "count": 16512,
+      "max": [
+        4810
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 443424,
+      "componentType": 5126,
+      "count": 3098,
+      "max": [
+        22.873970031738281,
+        22.873970031738281,
+        92.549392700195312
+      ],
+      "min": [
+        -22.873970031738281,
+        -22.873970031738281,
+        9.5918998718261719
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 480600,
+      "componentType": 5126,
+      "count": 3098,
+      "max": [
+        0.99855655431747437,
+        0.99855655431747437,
+        1
+      ],
+      "min": [
+        -0.99855655431747437,
+        -0.99855655431747437,
+        -0.99999892711639404
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 148992,
+      "componentType": 5125,
+      "count": 6720,
+      "max": [
+        3097
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Singgih Pramono (https://sketchfab.com/singh.pram)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/d5d7f266237141c895f65811c867016b",
+      "title": "Monas"
+    },
+    "generator": "Sketchfab-3.18.5",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 175872,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 517776,
+      "byteOffset": 175872,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 693648,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.62400005576999995,
+            0.36725004498000002,
+            0.0092966552639999998,
+            1
+          ],
+          "glossinessFactor": 0.80000000000000004,
+          "specularFactor": [
+            0.34000000000000002,
+            0.34000000000000002,
+            0.34000000000000002
+          ]
+        }
+      },
+      "name": "emas"
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "glossinessFactor": 0.80000000000000004,
+          "specularFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "name": "tembok"
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.80000007149999997,
+            0.7437133789,
+            0.31212949750000002,
+            1
+          ],
+          "glossinessFactor": 0.80000000000000004,
+          "specularFactor": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "name": "tembok_bawah"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "monas_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "monas_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "monas_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6
+          },
+          "indices": 8,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6
+      ],
+      "matrix": [
+        0.41580000000000006,
+        0,
+        0,
+        0,
+        0,
+        0.41580000000000006,
+        0,
+        0,
+        0,
+        0,
+        0.46820000000000001,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "monas"
+    },
+    {
+      "mesh": 0,
+      "name": "monas_0"
+    },
+    {
+      "mesh": 1,
+      "name": "monas_1"
+    },
+    {
+      "mesh": 2,
+      "name": "monas_2"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
