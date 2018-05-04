@@ -1,23 +1,28 @@
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Belajar WebAR</title>
+  <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  <script src="https://cdn.rawgit.com/kripken/ammo.js/dcab07bf0e7f2b4b64c01dc45da846344c8f50be/builds/ammo.js"></script>
+  <!-- <script src="https://cdn.rawgit.com/takahirox/aframe-outline/v1.1.1/build/aframe-outline.min.js"></script> -->
+  <script src="https://cdn.rawgit.com/takahirox/a-mmd/v1.0.3/build/a-mmd.min.js"></script>
+  <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.5/aframe/build/aframe-ar.js"></script>
 </head>
-<body style='margin : 0px; overflow: hidden;'>
-<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
-<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.5/aframe/build/aframe-ar.js"></script>
-  <a-assets>
-    <a-asset-item id="monas" src="./monas.obj"></a-asset-item>
-  </a-assets>
-	<a-scene embedded arjs='sourceType: webcam;'>
-    <a-entity position='0 0.5 0' obj-model="obj: #monas;" scale="0.05 0.05 0.05"></a-entity>
-		<!-- <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box> -->
-		<a-marker-camera preset='hiro'></a-marker-camera>
-		<!-- <a-marker-camera type="pattern" patternUrl="ar-js-pattern.patt"></a-marker-camera> -->
-	</a-scene>
+
+<body>
+  <a-scene antialias="true" outline embedded arjs='sourceType: webcam;'>
+
+    <a-entity mmd="audio:https://cdn.rawgit.com/mrdoob/three.js/r87/examples/models/mmd/audios/wavefile_short.mp3;
+    audioDelayTime:5.333333333333333; afterglow:2.0;">
+      <a-entity scale="0.2 0.2 0.2" mmd-model="model:https://cdn.rawgit.com/mrdoob/three.js/r87/examples/models/mmd/miku/miku_v2.pmd;
+                             vmd:https://cdn.rawgit.com/mrdoob/three.js/r87/examples/models/mmd/vmds/wavefile_v2.vmd;
+                             physics:true;" shadow="cast:true" position="0 0 0" rotation="" visible=""></a-entity>
+    </a-entity>
+    <a-marker-camera preset='hiro'></a-marker-camera>
+  </a-scene>
+
+  <a-light type="ambient" color="#888"></a-light>
+  <a-light color="#AAA" distance="100" intensity="0.4" type="point"></a-light>
+  </a-scene>
 </body>
 
 </html>
